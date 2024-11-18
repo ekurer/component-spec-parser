@@ -1,0 +1,76 @@
+Product Folder
+
+Order Now
+
+Technical Documents
+
+Tools & Software
+
+Support & Community
+
+
+
+TPS65919-Q1
+SLVSDM1A – AUGUST 2017 – REVISED FEBRUARY 2019
+
+TPS65919-Q1 Power Management Unit (PMU) for Processor
+1 Device Overview
+
+
+1.1 Features
+• Qualified for Automotive Applications
+• AEC-Q100 Qualified With the Following Results:
+– Device Temperature Grade 2: –40°C to +105°C Ambient Operating Temperature Range
+– Device HBM Classification Level 2
+– Device CDM Classification Level C4B
+• System Voltage Range from 3.135 V to 5.25 V
+• Low-Power Consumption
+– 20 ?A in Off Mode
+– 90 ?A in Sleep Mode With Two SMPSs Active
+• Four Step-Down Switched-Mode Power Supply (SMPS) Regulators:
+– 0.7- to 3.3-V Output Range in 10- or 20-mV Steps
+– Two SMPS Regulators With 3.5-A Capability, With the Ability to Combine into 7-A Output in Dual-Phase Configuration, With Differential Remote Sensing (Output and Ground)
+– Two Other SMPS Regulators with 3-A and 1.5-A Capabilities
+– Dynamic Voltage Scaling (DVS) Control and Output Current Measurement in 3.5-A and 3-A SMPS Regulators
+– Hardware and Software Controlled Eco-mode™ Supplying up to 5 mA
+– Short-Circuit Protection
+– Power-Good Indication (Voltage and Overcurrent Indication)
+– Internal Soft-Start for In-Rush Current Limitation
+– Ability to Synchronize to External Clock between
+1.7 MHz and 2.7 MHz
+1.2 Applications
+• Automotive Digital Cluster
+• Automotive Advanced Driver Assistance System (ADAS)
+1.3 Description
+
+
+
+• Four Low-Dropout (LDO) Linear Regulators:
+– 0 .9- to 3.3-V Output Range in 50-mV steps
+– Two With 300-mA Capability and Bypass Mode
+– One With 100-mA Capability and Capable of Low-Noise Performance up to 50 mA
+– One LDO With 200-mA Current Capability
+– Short-Circuit Protection
+• 12-Bit Sigma-Delta General-Purpose ADC (GPADC) With 8 Input Channels (2 external)
+• Thermal Monitoring With High Temperature Warning and Thermal Shutdown
+• Power Sequence Control:
+– Configurable Power-Up and Power-Down Sequences (OTP)
+– Configurable Sequences Between the SLEEP and ACTIVE State Transition (OTP)
+– Three Digital Output Signals that can be Included in the Startup Sequence
+• Selectable Control Interface:
+– One SPI for Resource Configurations and DVS Control
+– Two I2C Interfaces.
+– One Dedicated for DVS Control
+– One General Purpose I2C Interface for Resource Configuration and DVS Control
+• OTP Bit-Integrity Error Detection With Options to Proceed or Hold Power-Up Sequence and RESET_OUT Release
+• Package Option:
+– 7-mm ª 7-mm 48-pin With 0.5-mm Pitch
+
+
+• Automotive Navigation Systems
+
+The TPS65919-Q1 PMIC integrates four configurable step-down converters with up to 3.5 A of output current to power the processor core, memory, I/O, and preregulation of LDOs The device is AEC-Q100 qualified. The step-down converters are synchronized to an internal 2.2-MHz clock to improve EMC performance of the device. The GPIO_3 pin allows the step-down converters to synchronize to an external clock, allowing multiple devices to synchronize to the same clock which improves system-level EMC performance. The device also contains four LDOs to power low-current or low-noise domains.
+
+
+
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, intellectual property matters and other important disclaimers. PRODUCTION DATA.

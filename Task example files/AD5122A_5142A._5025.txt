@@ -1,0 +1,140 @@
+Nonvolatile Digital Potentiometer
+
+FEATURES	FUNCTIONAL BLOCK DIAGRAM
+
+10 k? and 100 k? resistance options Resistor tolerance: 8% maximum Wiper current: ±6 mA
+Low temperature coefficient: 35 ppm/°C Wide bandwidth: 3 MHz
+Fast start-up time < 75 µs Linear gain setting mode
+Single- and dual-supply operation Independent logic supply: 1.8 V to 5.5 V
+Wide operating temperature: -40°C to +125°C 3 mm ª 3 mm package option
+Qualified for automotive applications
+APPLICATIONS
+Portable electronics level adjustment
+LCD panel brightness and contrast controls Programmable filters, delays, and time constants Programmable power supplies
+
+GENERAL DESCRIPTION
+
+VLOGIC
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GND
+
+VDD	INDEP
+
+
+
+
+
+A1 W1 B1 A2 W2 B2
+
+
+
+VSS
+
+Figure 1.
+
+The AD5122A/AD5142A potentiometers provide a nonvolatile solution for 128-/256-position adjustment applications, offering guaranteed low resistor tolerance errors of ±8% and up to ±6 mA current density in the Ax, Bx, and Wx pins.
+The low resistor tolerance and low nominal temperature coefficient simplify open-loop applications as well as applications requiring tolerance matching.
+The linear gain setting mode allows independent programming of the resistance between the digital potentiometer terminals, through RAW and RWB the string resistors, allowing very accurate resistor matching.
+The high bandwidth and low total harmonic distortion (THD) ensure optimal performance for ac signals, making it suitable for filter design.
+The low wiper resistance of only 40 ? at the ends of the resistor array allows for pin-to-pin connection.
+The wiper values can be set through an I2C-compatible digital interface that is also used to read back the wiper register and EEPROM contents.
+The AD5122A/AD5142A are available in a compact, 16-lead, 3 mm ª 3 mm LFCSP and a 16-lead TSSOP. The parts are
+guaranteed to operate over the extended industrial temperature range of -40°C to +125°C.
+
+Table 1. Family Models
+
+Model
+Channel
+Position
+Interface
+Package
+AD51231
+Quad
+128
+I2C
+LFCSP
+AD5124
+Quad
+128
+SPI/I2C
+LFCSP
+AD5124
+Quad
+128
+SPI
+TSSOP
+AD51431
+Quad
+256
+I2C
+LFCSP
+AD5144
+Quad
+256
+SPI/I2C
+LFCSP
+AD5144
+Quad
+256
+SPI
+TSSOP
+AD5144A
+Quad
+256
+I2C
+TSSOP
+AD5122
+Dual
+128
+SPI
+LFCSP/TSSOP
+AD5122A
+Dual
+128
+I2C
+LFCSP/TSSOP
+AD5142
+Dual
+256
+SPI
+LFCSP/TSSOP
+AD5142A
+Dual
+256
+I2C
+LFCSP/TSSOP
+AD5121
+Single
+128
+SPI/I2C
+LFCSP
+AD5141
+Single
+256
+SPI/I2C
+LFCSP
+1 Two potentiometers and two rheostats.
+
+
+
+Rev. B	Document Feedback
+Information furnished by Analog Devices is believed to be accurate and reliable. However, no responsibility is assumed by Analog Devices for its use, nor for any infringements ofpatents or other rightsofthird partiesthat mayresult fromitsuse. Specifications subjectto changewithout notice. No license is granted by implication or otherwise under any patent or patent rights of Analog Devices. Trademarksandregisteredtrademarksaretheproperty oftheirrespectiveowners.
+
+
+
+One Technology Way, P.O. Box 9106, Norwood, MA 02062-9106, U.S.A. Tel: 781.329.4700 ©2012–2017 Analog Devices, Inc. All rights reserved. Technical Support	www.analog.com

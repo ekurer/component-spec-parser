@@ -1,0 +1,84 @@
+Product Folder
+
+Order Now
+
+Technical Documents
+
+Tools & Software
+
+Support & Community
+
+
+LMR36006-Q1
+SNVSAY7C – AUGUST 2018 – REVISED OCTOBER 2019
+
+LMR36006-Q1 4.2-V to 60-V, 0.6-A Ultra-Small Synchronous Step-Down Converter
+
+1 Features
+• AEC-Q100-qualified for automotive applications:
+– Temperature grade 1: –40°C to +125°C, TA
+• Designed for automotive applications
+– Junction temperature range –40°C to +150°C
+– Protection features: thermal shutdown, input undervoltage lockout, cycle-by-cycle current limit, hiccup short-circuit protection
+– 0.2-V dropout with 0.6-A load (typical)
+– ±1.5% reference voltage tolerance
+– 3.3-V fixed-output voltage option available
+• Suited for scalable power supplies
+– Pin compatible with:
+– LMR36015-Q1 (60 V, 1.5 A)
+– LMR33620/30-Q1 (36 V, 2 A, or 3 A)
+– 400-kHz, 2.1-MHz frequency options
+• Integration reduces solution size and cost
+– Small, 2-mm ª 3-mm VQFN package with wettable flanks
+– Few external components
+• Low power dissipation across load spectrum
+– 94% efficiency at 400 kHz (12VIN, 5VOUT, 0.6A)
+– Increased light load efficiency in PFM
+– Low operating quiescent current of 26 µA
+• Optimized for ultra low EMI requirements
+– Meets CISPR25 class 5 standard
+– Hotrod™ package minimizes switch node ringing
+– Parallel input path minimizes parasitic inductance
+– Spread spectrum reduces peak emissions
+• Create a custom design using the LMR36006-Q1 with the WEBENCH® Power Designer
+2 
+Applications
+• ADAS camera module
+• Body control module
+
+3 Description
+The LMR36006-Q1 regulator is an easy-to-use, synchronous, step-down DC/DC converter. With integrated high-side and low-side power MOSFETs, up to 0.6 A of output current is delivered over a wide input voltage range of 4.2V to 60V. Tolerance goes up to 66 V.
+The LMR36006-Q1 uses peak-current-mode control to provide optimal efficiency and output voltage accuracy. Advanced high speed circuitry allows the LMR36006-Q1 to regulate from an input of 20 V to an output of 5 V at a fixed frequency of 2.1 MHz. Precision enable gives flexibility by enabling a direct connection to the wide input voltage or precise control over device start-up and shutdown. The power-good flag, with built-in filtering and delay, offers a true indication of system status eliminating the requirement for an external supervisor.
+The LMR36006-Q1 is in a HotRod™ package which enables low EMI, higher efficiency, and the smallest package to die ratio. The device requires few external components and has a pinout designed  for simple PCB layout. The small solution size and feature set of the LMR36006-Q1 are designed to simplify implementation for a wide range of end equipment.
+
+Device Information(1)
+PART NUMBER
+PACKAGE
+BODY SIZE (NOM)
+LMR36006-Q1
+VQFN-HR (12)
+2.00 mm ª 3.00 mm
+(1) For all available packages, see the orderable addendum at the end of the data sheet.
+
+
+
+
+
+Simplified Schematic
+
+VIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, intellectual property matters and other important disclaimers. PRODUCTION DATA.

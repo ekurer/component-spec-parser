@@ -1,0 +1,42 @@
+
+LMK04000, LMK04001, LMK04002, LMK04010 LMK04011, LMK04031, LMK04033
+www.ti.com	SNOSAZ8J – SEPTEMBER 2008 – REVISED SEPTEMBER 2011
+
+LMK04000 Family Low-Noise Clock Jitter Cleaner with Cascaded PLLs
+Check for Samples: LMK04000, LMK04001, LMK04002, LMK04010, LMK04011, LMK04031, LMK04033
+FEATURES
+• Cascaded PLLatinum™ PLL Architecture	•	Support Clock Rates up to 1080 MHz
+– PLL1	•	Default Clock Output (CLKout2) at power up
+– Phase Detector Rate of up to 40 MHz	•	Five Dedicated Channel Divider and Delay
+
+– Integrated Low-Noise Crystal Oscillator
+
+Blocks
+
+Circuit	•	Pin Compatible Family of Clocking Devices
+– Dual Redundant Input Reference Clock	•	Industrial Temperature Range: -40°C to +85°C with LOS	•	3.15V to 3.45V Operation
+– PLL2	•	Package: 48 Pin WQFN (7.0 x 7.0 x 0.8 mm)
+– Normalized [1 Hz] PLL Noise Floor of -
+224 dBc/Hz	APPLICATIONS
+– Phase Detector Rate up to 100 MHz	•	Data Converter Clocking
+– Input Frequency-Doubler	•	Wireless Infrastructure
+– Integrated Low-Noise VCO	•	Networking, SONET/SDH, DSLAM
+• Ultra-Low RMS Jitter Performance	•	Medical
+– 150 fs RMS Jitter (12 kHz – 20 MHz)	•	Military / Aerospace
+– 200 fs RMS Jitter (100 Hz – 20 MHz)	•	Test and Measurement
+• LVPECL/2VPECL, LVDS, and LVCMOS outputs	•	Video
+DESCRIPTION
+The LMK04000 family of precision clock conditioners provides low-noise jitter cleaning, clock multiplication and distribution without the need for high-performance voltage controlled crystal oscillators (VCXO) module. Using a cascaded PLLatinum™ architecture combined with an external crystal and varactor diode, the LMK04000 family provides sub-200 femtosecond (fs) root mean square (RMS) jitter performance.
+The cascaded architecture consists of two high-performance phase-locked loops (PLL), a low-noise crystal oscillator circuit, and a high-performance voltage controlled oscillator (VCO). The first PLL (PLL1) provides a low- noise jitter cleaner function while the second PLL (PLL2) performs the clock generation. PLL1 can be configured to either work with an external VCXO module or use the integrated crystal oscillator with an external crystal and a varactor diode. When used with a very narrow loop bandwidth, PLL1 uses the superior close-in phase noise (offsets below 50 kHz) of the VCXO module or the crystal to clean the input clock. The output of PLL1 is used as the clean input reference to PLL2 where it locks the integrated VCO. The loop bandwidth of PLL2 can be optimized to clean the far-out phase noise (offsets above 50 kHz) where the integrated VCO outperforms the VCXO module or crystal used in PLL1.
+The LMK04000 family features dual redundant inputs, five differential outputs, and an optional default-clock upon power up. The input block is equipped with loss of signal detection and automatic or manual selection of the reference clock. Each clock output consists of a programmable divider, a phase synchronization circuit, a programmable delay, and an LVDS, LVPECL, or LVCMOS output buffer. The default startup clock is available on CLKout2 and it can be used to provide an initial clock for the field-programmable gate array (FPGA) or microcontroller that programs the jitter cleaner during the system power up sequence.
+
+
+
+
+
+Please be aware that an important notice concerning availability, standard warranty, and use in critical applications of Texas Instruments semiconductor products and disclaimers thereto appears at the end of this data sheet.
+PLLatinum is a trademark of Texas Instruments.
+All other trademarks are the property of their respective owners.
+PRODUCTION DATA information is current as of publication date.	Copyright © 2008–2011, Texas Instruments Incorporated
+Products conform to specifications per the terms of the Texas
+Instruments standard warranty. Production processing does not necessarily include testing of all parameters.

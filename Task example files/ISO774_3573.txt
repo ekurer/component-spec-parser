@@ -1,0 +1,111 @@
+Product Folder
+
+Order Now
+
+Technical Documents
+
+Tools & Software
+
+Support & Community
+
+
+ISO7740, ISO7741, ISO7742
+SLLSEP4G – MARCH 2016 – REVISED FEBRUARY 2020
+
+ISO774x High-Speed, Robust-EMC Reinforced and Basic Quad-Channel Digital Isolators
+
+1 Features
+• 100 Mbps data rate
+• Robust isolation barrier:
+– >100-year projected lifetime at 1500 VRMS working voltage
+– Up to 5000 VRMS isolation rating
+– Up to 12.8 kV surge capability
+– ±100 kV/?s typical CMTI
+• Wide supply range: 2.25 V to 5.5 V
+• 2.25-V to 5.5-V level translation
+• Default output high (ISO774x) and low
+(ISO774xF) options
+• Wide temperature range: –55°C to +125°C
+• Low power consumption, typical 1.5 mA per channel at 1 Mbps
+• Low propagation delay: 10.7 ns typical (5-V Supplies)
+• Robust electromagnetic compatibility (EMC)
+– System-level ESD, EFT, and surge immunity
+– ±8 kV IEC 61000-4-2 contact discharge protection across isolation barrier
+– Low emissions
+• Wide-SOIC (DW-16) and QSOP (DBQ-16) package options
+• Automotive version available: ISO774x-Q1
+• Safety-related certifications:
+–   DIN VDE V 0884-11:2017-01
+– UL 1577 component recognition program
+– CSA, CQC, and TUV certifications
+
+2 Applications
+• Industrial automation
+• Motor control
+3 
+Description
+The ISO774x devices are high-performance, quad- channel digital isolators with 5000 VRMS (DW package) and 3000 VRMS (DBQ package) isolation ratings per UL 1577. This family includes devices with reinforced insulation ratings according to VDE, CSA, TUV and CQC. The ISO7741B device is designed for applications that require basic insulation ratings only.
+The ISO774x devices provide high electromagnetic immunity and low emissions at low power consumption, while isolating CMOS or LVCMOS digital I/Os. Each isolation channel has a logic input and output buffer separated by a double capacitive silicon dioxide (SiO2) insulation barrier. These devices come with enable pins which can be used to put the respective outputs in high impedance for multi-master driving applications and to reduce power consumption. The ISO7740 device has all four channels in the same direction, the ISO7741 device has three forward and one reverse-direction channels, and the ISO7742 device has two forward and two reverse-direction channels. If the input power or signal is lost, default output  is high for devices without suffix F and low for devices with suffix F. See the Device Functional Modes section for further details.
+Device Information(1)
+PART NUMBER
+PACKAGE
+BODY SIZE (NOM)
+ISO7740 ISO7741 ISO7742
+SOIC (DW)
+10.30 mm ª 7.50 mm
+
+SSOP (DBQ)
+4.90 mm ª 3.90 mm
+ISO7741B
+SOIC (DW)
+10.30 mm ª 7.50 mm
+(1) For all available packages, see the orderable addendum at the end of the data sheet.
+
+Simplified Schematic
+
+
+V
+
+• Power supplies
+• Solar inverters
+• Medical equipment
+
+
+
+
+
+INx
+
+VCCI
+
+
+
+Series Isolation Capacitors
+
+
+
+CCO
+
+
+
+
+
+OUTx
+
+
+ENx
+
+
+GNDI
+
+GNDO
+Copyright © 2016, Texas Instruments Incorporated
+
+
+VCCI=Input supply, VCCO=Output supply GNDI=Input ground, GNDO=Output ground
+
+
+
+
+
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, intellectual property matters and other important disclaimers. PRODUCTION DATA.

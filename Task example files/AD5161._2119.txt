@@ -1,0 +1,108 @@
+256-Position SPI/I2C Selectable
+Digital Potentiometer
+
+FEATURES	FUNCTIONAL BLOCK DIAGRAM
+
+256-position
+End-to-end resistance 5 k?, 10 k?, 50 k?, 100 k? Compact MSOP-10 (3 mm ª 4.9 mm) package
+Pin selectable SPI/I2C compatible interface Extra package address decode pin AD0 Full read/write of wiper register
+Power-on preset to midscale Single supply 2.7 V to 5.5 V
+Low temperature coefficient 45 ppm/°C Low power, IDD = 8 ?A
+Wide operating temperature -40°C to +125°C
+
+
+
+
+SDI/SDA CLK/SCL
+DIS CS/AD0
+
+VDD
+
+
+
+
+
+
+
+
+
+
+
+GND
+
+SDO/NC
+
+
+A
+
+
+
+W
+
+
+
+B
+
+SDO output allows multiple device daisy-chaining Evaluation board available
+APPLICATIONS
+Mechanical potentiometer replacement in new designs Transducer adjustment of pressure, temperature, position,
+  chemical, and optical sensors RF amplifier biasing
+Gain control and offset adjustment
+
+GENERAL DESCRIPTION
+The AD5161 provides a compact 3 mm ª 4.9 mm packaged solution for 256-position adjustment applications. These devices perform the same electronic adjustment function as mechanical potentiometers or variable resistors, with enhanced resolution, solid-state reliability, and superior low temperature coefficient performance.
+The wiper settings are controllable through a pin selectable SPI or I2C compatible digital interface, which can also be used to read back the wiper register content. When the SPI mode is used, the device can be daisy-chained (SDO to SDI), allowing several parts to share the same control lines. In the I2C mode, address pin AD0 can be used to place up to two devices on the same bus. In this same mode, command bits are available to reset the wiper position to midscale or to shut down the device into a state of zero power consumption.
+Operating from a 2.7 V to 5.5 V power supply and consuming less than 5 ?A allows for usage in portable battery-operated applications.
+
+Figure 1.
+
+
+PIN CONFIGURATION
+
+A B
+1
+2
+
+AD5161
+10
+9
+W
+VDD
+CS/ADO
+3
+TOP VIEW
+8
+DIS
+SDO/NC
+4
+(Not to Scale)
+7
+GND
+SDI/SDA
+5
+
+6
+CLK/SCL
+
+
+
+
+
+
+
+Figure 2.
+
+
+
+
+
+
+
+
+
+Rev. C	Document Feedback
+Information furnished by Analog Devices is believed to be accurate and reliable. However, no responsibility is assumed by Analog Devices for its use, nor for any infringements ofpatents orother rights ofthirdparties thatmay result fromits use. Specificationssubject tochangewithout notice. No license is granted by implication or otherwise under any patent or patent rights of Analog Devices. Trademarks andregisteredtrademarks arethepropertyoftheirrespectiveowners.
+
+
+
+One Technology Way, P.O. Box 9106, Norwood, MA 02062-9106, U.S.A. Tel: 781.329.4700 ©2003–2015 Analog Devices, Inc. All rights reserved. Technical Support	www.analog.com

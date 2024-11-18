@@ -1,0 +1,65 @@
+
+
+
+
+
+
+
+INA225-Q1 AEC-Q100, 36-V, Bidirectional Current Sense Amplifier With Four Pin- Selectable Gain Settings
+
+
+1 Features
+• AEC-Q100 qualified:
+– Temperature grade 1: –40 °C to +125 °C
+– HBM ESD classification 2
+– CDM ESD classification C4B
+• Functional Safety-Capable
+– Documentation available to aid functional safety system design
+• Wide common-mode range: 0 V to 36 V
+• Offset voltage: ±150 ?V (maximum, all gains
+• Offset voltage drift: 0.5 ?V/°C (maximum)
+• Gain accuracy, over temperature (maximum):
+– 25 V/V, 50 V/V: ±0.15%
+– 100 V/V: ±0.2%
+– 200 V/V: ±0.3%
+– 10-ppm/°C gain drift
+• Bandwidth: 250 kHz (gain = 25 V/V)
+• Programmable gains:
+–   G1 = 25 V/V
+–   G2 = 50 V/V
+–   G3 = 100 V/V
+–   G4 = 200 V/V
+• Quiescent current: 350 ?A (maximum)
+• Package: 8-pin VSSOP
+2 Applications
+• Automotive lighting
+• Body control module
+• Motor control
+• Valve control
+• Cluster
+• Central control module
+3 
+Description
+The INA225-Q1 is a voltage-output, current-sense amplifier that senses drops across current-sensing resistors at common-mode voltages that vary from 0 V to 36 V, independent of the supply voltage. The device is a bidirectional, current-shunt monitor that allows an external reference to be used to measure current flowing in both directions across a current- sensing resistor.
+Four discrete gain levels are selectable using the two gain-select terminals (GS0 and GS1) to program gains of 25 V/V, 50 V/V, 100 V/V, and 200 V/V. The low-offset, zero-drift architecture and precision gain values enable current-sensing with maximum drops across the shunt as low as 10 mV of full-scale, while maintaining very high accuracy measurements over the entire operating temperature range.
+The device operates from a single 2.7V to 36V power supply, drawing a maximum of 350   ?A of supply current. The device is specified over the extended operating temperature range of –40 °C to
++125 °C, and is offered in a VSSOP-8 package.
+Device Information (1)
+PART NUMBER
+PACKAGE
+BODY SIZE (NOM)
+INA225-Q1
+VSSOP (8)
+3.00 mm x 3.00 mm
+(1)	For all available packages, see the package option addendum at the end of the data sheet.
+
+
+
+
+
+
+
+
+
+
+Typical Application

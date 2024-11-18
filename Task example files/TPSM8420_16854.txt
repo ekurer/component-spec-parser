@@ -1,0 +1,108 @@
+Product Folder
+
+Order Now
+
+Technical Documents
+
+Tools & Software
+
+Support & Community
+
+
+TPSM84209
+SLVSE31C – JANUARY 2018 – REVISED JULY 2018
+
+TPSM84209 4.5V to 28V Input, 1.2V to 6V Output, 2.5-A Power Module
+
+1 Features
+• Complete Integrated Power Solution Allows Small Footprint, Low-Profile Design
+• 4.5-mm ª 4-mm ª 2-mm QFN Package
+• Wide-Output Voltage Range (1.2 V to 6 V)
+• Fixed Switching Frequency (750 kHz)
+• Advanced Eco-mode™ for Light Load Efficiency
+• Programmable Undervoltage Lockout (UVLO)
+• Overtemperature Thermal Shutdown Protection
+• Overcurrent Protection (Hiccup Mode)
+• Safe Prebias Output Start-Up
+• Operating IC Junction Range: –40°C to +125°C
+• Operating Ambient Range: –40°C to +85°C
+• Enhanced Thermal Performance: 29.5°C/W
+• Meets EN55011 Radiated EMI Standards
+– Integrated Shielded Inductor
+• Create a Custom Design Using the TPSM84209 With the WEBENCH® Power Designer
+2 Applications
+• Industrial and Motor Controls
+• Automated Test Equipment
+• Medical and Imaging Equipment
+• High-Density Power Systems
+3 
+Description
+The TPSM84209 power module is an easy-to-use integrated power supply that combines a 2.5-A DC/DC converter with a shielded inductor and passives into a low-profile QFN package. This total power solution allows as few as four external components while maintaining an ability to adjust key parameters to meet specific design requirements.
+The wide input voltage range and small package size of the TPSM84209 makes the device an excellent fit for power rails that require up to 2.5 A of output current.
+The QFN package is easy to solder to a printed circuit board and has excellent power dissipation capability. The TPSM84209 offers flexibility with many features and is ideal for powering a wide range of devices and systems.
+
+Device Information(1)
+
+DEVICE NUMBER
+PACKAGE
+BODY SIZE
+TPSM84209H
+QFN (9)
+4.50 mm ª 4.00 mm
+(1) For all available packages, see the orderable addendum at the end of the data sheet.
+
+
+
+
+
+
+
+
+
+VIN
+
+Simplified Application
+
+
+
+
+
+VOUT
+
+
+
+
+100
+
+90
+
+80
+
+70
+
+
+Efficiency vs Output Current
+
+
+60
+Copyright © 2018, Texas Instruments Incorporated
+
+50
+
+
+40
+0.0	0.5	1.0	1.5
+Output Current (A)
+
+
+2.0	2.5
+Eff
+
+
+
+
+
+
+
+
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, intellectual property matters and other important disclaimers. PRODUCTION DATA.

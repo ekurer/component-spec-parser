@@ -1,0 +1,98 @@
+12-Bit ADC in 20-Lead LFCSP/TSSOP
+
+FEATURES	FUNCTIONAL BLOCK DIAGRAM
+
+I2C-compatible serial interface supports standard and fast modes
+Ultra low power: 90 µW typical at 3 V in fast mode Specified for VDD of 2.7 V to 5.25 V
+On-chip accurate 2.5 V reference, 5 ppm/°C typical drift 4 single-ended analog input channels
+ALERT function BUSY function Autocycle mode
+Wide input bandwidth
+68 dB signal-to-noise ratio (SNR) typical at input frequency of 1 kHz
+Flexible power/throughput rate management No pipeline delays
+Power-down mode
+550 nA typical at VDD = 5.25 V 435 nA typical at VDD = 3 V
+20-lead LFCSP and TSSOP packages Temperature range: -40°C to +125°C
+APPLICATIONS
+Battery-powered systems Personal digital assistants Medical instruments Mobile communications
+Instrumentation and control systems Data acquisition systems
+Optical sensors Diagnostic/monitoring functions
+GENERAL DESCRIPTION
+
+
+
+
+
+
+VIN0 VIN1 VIN2 VIN3
+
+
+MUX
+
+
+
+OUT
+
+
+ADCIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GND
+
+
+VDD
+
+REFIN/
+REFOUT REGCAP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ALERT/BUSY/ GPO2 GND GPO0
+Figure 1.
+
+The AD7091R-5 is a 12-bit, multichannel, ultra low power, succes- sive approximation analog-to-digital converter (ADC). The AD7091R-5 operates from a single 2.7 V to 5.25 V power supply and typically consumes only 24 µA at a 3 V supply in fast mode.
+The AD7091R-5 provides a 2-wire serial interface compatible with I2C interfaces. The conversion process can be controlled by a sample mode via the CONVST/GPO1 pin, an autocycle mode selected through software control, or a command mode in which conversions occur across I2C write operations.
+The device contains a wide bandwidth track-and-hold amplifier that can handle input frequencies up to 1.5 MHz. The AD7091R-5 also features an on-chip conversion clock, an on-chip accurate
+2.5 V reference, and a programmable out of bounds user alert function.
+
+The AD7091R-5 offers four single-ended analog input channels with a channel sequencer that allows a preprogrammed selection of channels to be converted sequentially.
+The AD7091R-5 uses advanced design techniques to achieve ultra low power dissipation without compromising performance. It also features flexible power management options. An on-chip configuration register allows the user to set up different operating conditions. These include power management, alert functionality, busy indication, channel sequencing, and general-purpose output pins. The MUXOUT and ADCIN pins allow signal conditioning of the multiplexer output before acquisition by the ADC.
+
+
+
+Rev. A	Document Feedback
+Information furnished by Analog Devices is believed to be accurate and reliable. However, no responsibility is assumed by Analog Devicesforits use, norfor any infringements ofpatents orother rights ofthirdparties thatmay resultfromitsuse. Specificationssubject tochangewithout notice. No license is granted by implication or otherwise under any patent or patent rights of Analog Devices. Trademarksandregisteredtrademarksarethepropertyoftheirrespectiveowners.
+
+
+
+One Technology Way, P.O. Box 9106, Norwood, MA 02062-9106, U.S.A. Tel: 781.329.4700 ©2015–2018 Analog Devices, Inc. All rights reserved. Technical Support	www.analog.com

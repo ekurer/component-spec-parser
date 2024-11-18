@@ -1,0 +1,97 @@
+Product Folder
+
+Order Now
+
+Technical Documents
+
+Tools & Software
+
+Support & Community
+
+
+TPS54361-Q1
+SLVSCC4B – APRIL 2014 – REVISED JANUARY 2017
+
+TPS54361-Q1 4.5V to 60V Input, 3.5-A, Step Down DC-DC Converter with Soft-Start and Eco-mode™
+
+1 Features
+• Qualified for Automotive Applications
+• AEC-Q100 Qualified With the Following Results:
+– Device Temperature Grade 1: –40°C to +125°C Ambient Operating Temperature Range
+– Device HBM ESD Classification Level H1C
+– Device CDM ESD Classification Level C3B
+• High Efficiency at Light Loads with Pulse Skipping Eco-mode™
+• 87-m? High-Side MOSFET
+• 152-?A Operating Quiescent Current and 2-?A Shutdown Current
+• 100-kHz to 2.5-MHz Adjustable Switching Frequency
+• Synchronizes to External Clock
+• Low Dropout at Light Loads with Integrated BOOT Recharge FET
+• Adjustable UVLO Voltage and Hysteresis
+• UV and OV Power Good Output
+• Adjustable Soft-Start and Sequencing
+• 0.8-V 1% Internal Voltage Reference
+• 10-Pin WSON with Thermal Pad Package
+• –40°C to +150°C TJ Operating Range
+• Create a Custom Design using the TPS54361-Q1 with the WEBENCH® Power Designer
+
+2 Applications
+• Vehicle Accessories: GPS (see SLVA412), Entertainment
+• USB Dedicated Charging Ports and Battery Chargers (see SLVA464)
+• 12-V, 24-V and 48-V Industrial, Automotive and Communications Power Systems
+Simplified Schematic
+3 
+Description
+The TPS54361-Q1 device is a 60-V, 3.5-A, step down regulator with an integrated high side MOSFET. The device survives load dump pulses up to 65 V per ISO 7637. Current mode control provides simple external compensation and flexible component selection. A low ripple pulse skip mode and supply current of 152-µA enables high efficiency at light loads. Shutdown supply current is reduced to 2 ?A when the enable pin is pulled low.
+Undervoltage lockout is internally set at 4.3 V but can increase using an external resistor divider at the enable pin. The output voltage startup ramp is controlled by the soft start pin that can also be configured for sequencing/tracking. An open-drain power-good signal indicates the output is within 93% to 106% of the nominal voltage.
+A wide adjustable switching-frequency range allows for optimization of either efficiency or external component size. Cycle-by-cycle current-limit, frequency foldback and thermal shutdown protects internal and external components during an overload condition.
+The TPS54361-Q1 device is available in a 10-pin 4 mm ª 4 mm WSON exposed thermal pad package.
+
+Device Information(1)
+
+DEVICE NAME
+PACKAGE
+BODY SIZE
+TPS54361-Q1
+WSON (10)
+4.00 mm ª 4.00 mm
+(1) For all available packages, see the orderable addendum at the end of the data sheet.
+
+
+
+
+
+
+
+
+Efficiency vs Load Current
+
+
+100
+
+95
+
+90
+
+85
+
+80
+
+75
+
+70
+
+65
+
+60
+0	0.5	1	1.5	2	2.5	3	3.5
+
+Output Current (A)
+
+
+D029
+
+
+Copyright © 2016, Texas Instruments Incorporated
+
+
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, intellectual property matters and other important disclaimers. PRODUCTION DATA.

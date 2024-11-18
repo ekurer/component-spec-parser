@@ -1,0 +1,89 @@
+Product Folder
+
+Sample & Buy
+
+Technical Documents
+
+Tools & Software
+
+Support & Community
+
+
+
+
+TPS51200-EP Sink and Source DDR Termination Regulator
+
+TPS51200-EP
+SLUSA48 – JUNE 2016
+
+
+1
+Features
+2
+Applications
+•
+•
+•
+Input Voltage: Supports 2.5-V Rail and 3.3-V Rail VLDOIN Voltage Range: 1.1 V to 3.5 V
+Sink and Source Termination Regulator Includes
+•
+
+•
+Memory Termination Regulator for DDR, DDR2, DDR3, Low-Power DDR3, and DDR4
+Notebooks, Desktops, and Servers
+
+Droop Compensation
+•
+Telecom and Datacom
+•
+Requires Minimum Output Capacitance of 20-?F (Typically 3 ª 10-?F MLCCs) for Memory
+•
+•
+Base Stations
+LCD-TVs and PDP-TVs
+
+Termination Applications (DDR)
+• PGOOD to Monitor Output Regulation
+• EN Input
+• REFIN Input Allows for Flexible Input Tracking Either Directly or Through Resistor Divider
+• Remote Sensing (VOSNS)
+• ±10-mA Buffered Reference (REFOUT)
+• Built-in Soft Start, UVLO, and OCL
+• Thermal Shutdown
+• Meets DDR and DDR2 JEDEC Specifications
+• Supports DDR3, Low-Power DDR3, and DDR4 VTT Applications
+• 10-Pin VSON Package With Thermal Pad
+• Supports Defense, Aerospace, and Medical Applications
+– Controlled Baseline
+– One Assembly and Test Site
+– One Fabrication Site
+– Available in Military (–55°C to 125°C) Temperature Range
+– Extended Product Life Cycle
+– Extended Product-Change Notification
+– Product Traceability
+• 
+Copiers and Printers
+• Set-Top Boxes
+
+3 Description
+The TPS51200-EP device is a sink and source double data rate (DDR) termination regulator specifically designed for low-input voltage, low-cost, low-noise systems where space is a key consideration.
+The TPS51200-EP maintains a fast transient response and only requires a minimum output capacitance of 20 ?F. The TPS51200-EP supports a remote sensing function and all power requirements for DDR, DDR2, DDR3, Low-Power DDR3, and DDR4 VTT bus termination.
+In addition, the TPS51200-EP provides an open-drain PGOOD signal to monitor the output regulation and an EN signal that can be used to discharge VTT during S3 (suspend to RAM) for DDR applications.
+The TPS51200-EP is available in the thermally efficient 10-pin VSON thermal pad package, and is rated both Green and Pb-free. It is specified from
+–55°C to +125°C.
+
+Device Information(1)
+
+PART NUMBER
+PACKAGE
+BODY SIZE (NOM)
+TPS51200-EP
+VSON (10)
+3.00 mm ª 3.00 mm
+(1) For all available packages, see the orderable addendum at the end of the data sheet.
+
+
+Simplified DDR Application
+Copyright © 2016, Texas Instruments Incorporated
+
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, intellectual property matters and other important disclaimers. PRODUCTION DATA.

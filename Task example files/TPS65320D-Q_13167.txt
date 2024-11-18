@@ -1,0 +1,87 @@
+Product Folder
+
+Order Now
+
+Technical Documents
+
+Tools & Software
+
+Support & Community
+
+
+TPS65320D-Q1
+SLVSE56 – NOVEMBER 2017
+
+TPS65320D-Q1 36-V Step-Down Converter With Eco-mode™ and LDO Regulator
+
+1 Features
+• Qualified for Automotive Applications
+• AEC-Q100 Qualified with the Following Results:
+– Device Temperature Grade 1: –40°C to
++125°C Ambient Operating Temperature
+– Device HBM ESD Classification Level 2
+– Device CDM ESD Classification Level C4B
+• One High-VIN Step-Down DC-DC Converter
+– Input Range of 3.6 V to 36 V
+– 250-m? High-Side MOSFET
+– Maximum Load Current 3.2 A, Output Adjustable 1.1 V to 20 V
+– Adjustable Switching Frequency 100 kHz to
+2.5 MHz
+– Synchronizes to External Clock
+– High Efficiency at Light Loads With Pulse- Skipping Eco-mode™ Control Scheme
+– Maximum 140-µA Operating Quiescent Current
+• One Low-Dropout Voltage (LDO) Regulator
+– Input Range of 3 V to 20 V, With Auto-Source to Balance Efficiency and Lower Standby Current
+– 280-mA Current Capability With Typical 35-µA Quiescent Current in No-Load Condition
+– Power-Good Output (Push-Pull)
+– Low-Dropout Voltage of 300 mV at IO = 200 mA (Typical)
+• Overcurrent Protection for Both Regulators
+• Overtemperature Protection
+• 14-Pin HTSSOP Package With PowerPAD™ Integrated Circuit Package
+
+
+Typical Application Schematic
+2 
+Applications
+• Automotive Infotainment and Cluster
+• Advanced Driver Assistance System (ADAS)
+• Automotive Telematics, eCall
+
+3 Description
+The TPS65320D-Q1 device is a combination of a high-VIN DC-DC step-down converter, referred to as the buck regulator, with an adjustable switch-mode frequency from 100-kHz to 2.5-MHz, and a high-VIN 280-mA low-dropout (LDO) regulator. The input range is 3.6 V to 36 V for the buck regulator, and 3 V to
+36 V for the LDO regulator. The buck regulator has an integrated high-side MOSFET. The LDO regulator features a low-input supply current of 45-?A typical in no-load, also has an integrated MOSFET with an active-low, push-pull reset output pin. The input supply of the LDO regulator auto-source from the output of the buck regulator when it is in operation. Low-voltage tracking feature enables TPS65320D-Q1 to track the input supply during cold-crank conditions.
+The buck regulator provides a flexible design to fit system needs. The external loop compensation circuit allows for optimization of the converter response for the appropriate operating conditions. A low-ripple pulse-skip mode reduces the no-load input-supply current to maximum 140 ?A.
+The device has built-in protection features such as soft start, current-limit, thermal sensing and shutdown due to excessive power dissipation. Furthermore, the device has an internal undervoltage-lockout (UVLO) function that turns off the device when the supply voltage is too low.
+
+Device Information(1)
+PART NUMBER
+PACKAGE
+BODY SIZE (NOM)
+TPS65320D-Q1
+HTSSOP (14)
+5.00 mm ª 4.40 mm
+(1) For all available packages, see the orderable addendum at the end of the data sheet.
+
+Buck Efficiency Versus Output Current
+100
+90
+80
+70
+60
+50
+40
+30
+20
+10
+0
+
+0	1	2	3	4
+
+Load Current (A)
+
+D001
+
+
+Copyright © 2017, Texas Instruments Incorporated
+
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, intellectual property matters and other important disclaimers. PRODUCTION DATA.

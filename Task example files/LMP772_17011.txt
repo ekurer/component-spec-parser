@@ -1,0 +1,126 @@
+Product Folder
+
+Sample & Buy
+
+Technical Documents
+
+Tools & Software
+
+Support & Community
+
+
+LMP7721
+SNOSAW6E – JANUARY 2008 – REVISED DECEMBER 2014
+
+LMP7721 3-Femtoampere Input Bias Current Precision Amplifier
+1 Features	3	Description
+
+• Unless Otherwise Noted, Typical Values at TA = 25°C, VS = 5 V.
+
+The LMP7721 is the industry’s lowest specified input bias current precision amplifier. The ultra-low input
+
+• Input Bias Current (VCM = 1 V)
+
+bias current is 3 fA, with a specified limit of ±20 fA at
+25°C and ±900 fA at 85°C. This is achieved with the
+
+– Maximum at 25°C ±20 fA	latest patent-pending technology of input bias current
+
+– Maximum at 85°C ±900 fA
+• Offset Voltage ±26 µV
+
+cancellation amplifier circuitry. This technology also maintains the ultra-low input bias current over the entire input common-mode voltage range of the
+
+• Offset Voltage Drift ?1.5 ?V/°C	amplifier.
+• DC Open-Loop Gain 120 dB	Other outstanding features, such as low voltage noise
+• DC CMRR 100 dB	(6.5   nV/?Hz),   low   DC-offset   voltage   (±150   µV
+
+• Input Voltage Noise (at f = 1 kHz) 6.5 nV/?Hz
+• THD 0.0007%
+
+maximum at 25°C) and low-offset voltage temperature coefficient (?1.5 µV/°C), improve system sensitivity and accuracy in high-precision
+
+• Supply Current 1.3 mA	applications. With a supply voltage range of 1.8 V to
+
+• GBW 17 MHz
+• Slew Rate (Falling Edge) 12.76 V/?s
+• Supply Voltage 1.8 V to 5.5 V
+• Operating Temperature Range -40°C to +125°C
+5.5 
+V, the LMP7721 is the ideal choice for battery- operated, portable applications. The LMP7721 is part of the LMP™ precision amplifier family.
+As part of Texas Instruments' PowerWise™ products, the LMP7721 provides the remarkably wide-gain
+
+• 8-Pin SOIC	bandwidth	product	(GBW)	of	17	MHz	while
+consuming only 1.3 mA of current. This wide GBW
+2 Applications	along with the high open-loop gain of 120 dB enables
+
+• Photodiode Amplifier
+• High Impedance Sensor Amplifier
+
+accurate signal conditioning. With these specifications, the LMP7721 has the performance to excel in a wide variety of applications such as
+
+• Ion Chamber Amplifier	electrochemical cell amplifiers and sensor interface
+
+• Electrometer Amplifier
+
+circuits.
+
+• pH Electrode Amplifier	The LMP7721 is offered in an 8-pin SOIC package
+
+• Transimpedance Amplifier
+
+Ultra-Low Input Bias Current
+5
+
+
+0
+
+with a special pinout that isolates the amplifier’s input from the power supply and output pins. With proper board layout techniques, the unique pinout of the LMP7721 will prevent PCB leakage current from reaching the input pins. Thus system error will be further reduced.
+
+
+
+-5
+
+
+-10
+
+
+-15
+
+Device Information(1)
+PART NUMBER
+PACKAGE
+BODY SIZE (NOM)
+LMP7721
+SOIC (8)
+4.90 mm ª 3.90 mm
+(1) For all available packages, see the orderable addendum at the end of the datasheet.
+
+
+
+-20
+0
+
+
+0.5	1
+
+
+1.5	2
+
+
+2.5
+
+
+3	3.5
+
+VCM (V)
+
+
+
+
+
+
+
+
+
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, intellectual property matters and other important disclaimers. PRODUCTION DATA.

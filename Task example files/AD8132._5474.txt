@@ -1,0 +1,94 @@
+Low Cost, High Speed Differential Amplifier
+
+
+
+FEATURES
+High speed
+350 MHz, ?3 dB bandwidth 1200 V/?s slew rate
+Resistor set gain
+Internal common-mode feedback
+Improved gain and phase balance: ?68 dB @ 10 MHz Separate input to set the common-mode output voltage Low distortion: ?99 dBc SFDR @ 5 MHz, 800 ? load
+Low power: 10.7 mA @ 5 V
+Power supply range: 2.7 V to 5.5 V Fully AEC-Q100 qualified (AD8132W)
+
+APPLICATIONS
+Low power differential ADC drivers Differential gain and differential filtering Video line drivers
+Differential in/out level shifting
+Single-ended input to differential output drivers Active transformers
+Automotive driver assistance Automotive infotainment
+
+GENERAL DESCRIPTION
+The AD8132 is a low cost differential or single-ended input to differential output amplifier with resistor set gain. The AD8132 is a major advancement over op amps for driving differential input ADCs or for driving signals over long lines. The AD8132 has a unique internal feedback feature that provides output gain and phase matching balanced to ?68 dB at 10 MHz, suppressing harmonics and reducing radiated EMI.
+Manufactured using the next-generation of Analog Devices, Inc., XFCB bipolar process, the AD8132 has a ?3 dB bandwidth of 350 MHz and delivers a differential signal with ?99 dBc SFDR at 5 MHz, despite its low cost. The AD8132 eliminates the need for a transformer with high performance ADCs, preserving the low frequency and dc information. The common-mode level of the differential output is adjustable by applying a voltage on the VOCM pin, easily level shifting the input signals for driving single- supply ADCs. Fast overload recovery preserves sampling accuracy.
+
+CONNECTION DIAGRAM
+
+
+AD
+813
+2
+
+–IN
+1
+
+8
++IN
+VOCM
+2
+
+7
+NC
+V+
+3
+
+6
+V–
++OUT
+4
+
+5
+–OUT
+NC = NO CONNECT
+Figure 1.
+
+The AD8132 is also used as a differential driver for the trans- mission of high speed signals over low cost twisted pair or coaxial cables. The feedback network can be adjusted to boost the high frequency components of the signal. The AD8132 is used for either analog or digital video signals or for other high speed data trans- mission. The AD8132 is capable of driving either a Category 3 or Category 5 twisted pair or coaxial cable with minimal line attenuation. The AD8132 has considerable cost and performance improvements over discrete line driver solutions.
+Differential signal processing reduces the effects of ground noise that plagues ground-referenced systems. The AD8132 can be used for differential signal processing (gain and filtering) throughout a signal chain, easily simplifying the conversion between differential and single-ended components.
+The AD8132W is the automotive grade version, qualified for 125°C operation per the AEC-Q100. See the Automotive Products section for more details.
+The AD8132 is available in both 8-lead SOIC and 8-lead MSOP packages for operation over the extended industrial temperature range of -40°C to +125°C.
+6
+
+
+3
+
+
+0
+
+
+–3
+
+
+–6
+
+
+–9
+
+
+–12
+1
+
+
+
+10	100	1k FREQUENCY (MHz)
+Figure 2. Large Signal Frequency Response
+
+
+
+
+Rev. I
+Information furnished by Analog Devices is believed to be accurate and reliable. However, no responsibility is assumed by Analog Devices for its use, nor for any infringements of patents orother rights ofthirdparties that mayresult fromits use. Specificationssubject tochangewithout notice. No license is granted by implication or otherwise under any patent or patent rights of Analog Devices. Trademarks andregisteredtrademarks arethepropertyoftheirrespectiveowners.
+
+
+
+
+One Technology Way, P.O. Box 9106, Norwood, MA 02062-9106, U.S.A. Tel: 781.329.4700	www.analog.com
+Fax: 781.461.3113 ©2000–2009 Analog Devices, Inc. All rights reserved.

@@ -1,0 +1,122 @@
+Low Power, Buffered 24-Bit
+Sigma-Delta ADC
+
+
+
+FEATURES
+Power
+
+FUNCTIONAL BLOCK DIAGRAM
+
+Supply: 2.5 V to 5.25 V operation Normal: 75 ?A max
+Power-down: 1 ?A max
+RMS noise: 1.1 ?V at 9.5 Hz update rate
+19.5-bit p-p resolution (22 bits effective resolution) Integral nonlinearity: 3.5 ppm typical Simultaneous 50 Hz and 60 Hz rejection
+
+
+
+
+
+
+
+
+AIN(+) AIN(–)
+
+
+
+VDD
+
+GND
+
+VDD
+
+
+
+
+
+BUF
+
+REFIN(+) REFIN(–)
+
+
+
+
+
+
+?-?
+ADC
+
+
+
+
+CLOCK
+
+
+
+
+SERIAL INTERFACE
+
+
+
+
+
+DOUT/RDY DIN
+SCLK
+CS
+
+Internal clock oscillator Rail-to-rail input buffer VDD monitor channel
+Temperature range: –40°C to +105°C
+
+GND
+
+AD7791
+
+Figure 1.
+
+
+
+
+
+04227-0-001
+
+10-lead MSOP
+
+INTERFACE
+3-wire serial
+SPI®, QSPI™, MICROWIRE™, and DSP compatible Schmitt trigger on SCLK
+
+APPLICATIONS
+Smart transmitters Battery applications Portable instrumentation Sensor measurement
+Temperature measurement Pressure measurement Weigh scales
+4 to 20 mA loops
+
+GENERAL DESCRIPTION
+The AD7791 is a low power, complete analog front end for low frequency measurement applications. It contains a low noise 24-bit ?-? ADC with one differential input that can be buffered or unbuffered.
+The device operates from an internal clock. Therefore, the user does not have to supply a clock source to the device. The output data rate from the part is software programmable and can be varied from 9.5 Hz to 120 Hz, with the rms noise equal to
+1.1 ?V at the lower update rate. The internal clock frequency can be divided by a factor of 2, 4, or 8, which leads to a reduc- tion in the current consumption. The update rate, cutoff fre- frequency, and settling time will scale with the clock frequency.
+The part operates with a power supply from 2.5 V to 5.25 V. When operating from a 3 V supply, the power dissipation for the part is 225 ?W maximum. It is housed in a 10-lead MSOP.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Rev. A	Document Feedback
+Information furnished by Analog Devices is believed to be accurate and reliable. However, no re- sponsibility is assumed by Analog Devices for its use, nor for any infringements of patents or other rights ofthirdparties thatmay result fromits use. Specificationssubject tochangewithout notice. No license is granted by implication or otherwise under any patent or patent rights of Analog Devices. Trademarks andregisteredtrademarks arethepropertyoftheirrespectiveowners.
+
+
+
+One Technology Way, P.O. Box 9106, Norwood, MA 02062-9106, U.S.A. Tel: 781.329.4700 ©2004–2013 Analog Devices, Inc. All rights reserved. Technical Support	www.analog.com

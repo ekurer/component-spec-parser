@@ -1,0 +1,74 @@
+Product Folder
+
+Sample & Buy
+
+Technical Documents
+
+Tools & Software
+
+Support & Community
+
+
+TPS51604-Q1
+SLUSBT2A – JANUARY 2014 – REVISED AUGUST 2014
+
+TPS51604-Q1 Synchronous Buck FET Driver for High-Frequency CPU Core Power in Automotive Applications
+1 Features	3	Description
+
+• Qualified for Automotive Applications
+• AEC-Q100 Qualified With the Following Results:
+
+The TPS51604-Q1 drivers are optimized for high- frequency CPU VCORE applications. Advanced features such as reduced dead-time drive and auto
+
+– Device Temperature Grade 1: –40°C to +125°C	zero crossing are used to optimize efficiency over the
+
+– Device Human Body Model ESD Classification
+
+- voltage range from 2 V to 5.5 V
+
+entire load range.
+
+Level H2	The SKIP pin provides immediate CCM operation to
+
+– Device Charged Device Model ESD Classification Level C3B
+• Reduced Dead-Time Drive Circuit for Optimized CCM
+
+support controlled management of the output voltage. In addition, the TPS51604-Q1 supports two low- power modes. With the PWM input in 3-state, quiescent current is reduced to 130 µA, with immediate response. When SKIP is held at 3-state,
+
+• Automatic Zero Crossing Detection for Optimized	the current is reduced to 8 µA (typically 20 µs is
+DCM Efficiency	required   to   resume   switching).   Paired   with   the
+
+• Multiple Low-Power Modes for Optimized Light- Load Efficiency
+• Optimized Signal Path Delays for High-Frequency Operation
+• Integrated BST Switch Drive Strength Optimized
+
+appropriate TI controller, the drivers deliver an exceptionally high performance power supply system.
+The TPS51604-Q1 device is packaged in a space saving, thermally-enhanced 8-pin, 2-mm x 2-mm WSON package and operates from –40°C to +125°C.
+
+for Ultrabook FETs	Device Information(1)
+• Optimized for 5-V FET Drive
+• Conversion Input Voltage Range (VIN): 4.5 to 28 V
+• 2-mm ª 2-mm, 8-Pin, WSON Power-Pad Package	(1) For all available packages, see the orderable addendum at
+the end of the data sheet.
+2 Applications
+• Automotive Rear Seat Entertainment (RSE) Tablets Using High-Frequency CPUs With the Following Power Input:
+– Adapter
+– Battery
+– NVDC
+– 5-V or 12-V Rails
+Simplified Schematic
+R1	VIN
+
+
+
+
+
+
+
+C2
+
+
+
+
+
+UDG-12234

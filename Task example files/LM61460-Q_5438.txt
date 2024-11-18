@@ -1,0 +1,73 @@
+
+
+
+
+
+
+LM61460-Q1 Automotive 3-V to 36-V, 6-A, Low EMI Synchronous Step-Down Converter
+
+
+1 Features
+• AEC-Q100 qualified for automotive applications
+– Temperature grade 1: –40°C to +150°C, TJ
+• Functional Safety-Capable
+– Documentation available to aid functional safety system design
+• Optimized for ultra low EMI requirements
+– Hotrod™ package and parallel input path minimize switch node ringing
+– Spread spectrum reduces peak emissions
+– Adjustable SW node rise time
+• Designed for automotive applications
+– Supports 42-V automotive load dump
+– ±1% total output regulation accuracy
+– VOUT adjustable from 1 V to 95% of VIN
+– 0.4-V dropout with 4-A load (typical)
+• High efficiency power conversion at all loads
+– 7-µA no load current at 13.5 VIN, 3.3 VOUT
+– 83% PFM efficiency at 1-mA, 13.5 VIN, 5 VOUT
+– External bias option for improved efficiency
+• Suitable for scalable power supplies
+– Pin compatible with:
+• LM61440-Q1 (36 V, 4 A, adjustable fSW)
+• LM62440-Q1 (36 V, 4 A, fixed fSW)
+• LMQ61460-Q1 (36 V, 6 A, internal caps)
+2 Applications
+• Automotive infotainment and cluster: head unit, media hub, USB charge, display
+• Automotive ADAS and body electronics
+3 
+Description
+The LM61460-Q1 is an automotive-focused, high-performance, DC-DC synchronous step-down converter. With integrated high-side and low-side MOSFETs, up to 6 A of output current is delivered over a wide input range of 3.0 V to 36 V; tolerant of 42 V, easing input surge protection design. The LM61460-Q1 implements soft recovery from dropout eliminating overshoot on the output.
+The LM61460-Q1 is specifically designed for minimal EMI. The device incorporates pseudo-random spread spectrum, adjustable SW node rise time, low-EMI VQFN-HR package featuring low switch node ringing, and optimized pinout for ease of use. The switching frequency can be set or synchronized between
+200 kHz and 2.2 MHz to avoid noise sensitive frequency bands. In addition the frequency can be selected for improved efficiency at low operating frequency or smaller solution size at high operating frequency.
+Auto-mode enables frequency foldback when operating at light loads, allowing an unloaded current consumption of only 7 µA (typical) and high light load efficiency. Seamless transition between PWM and PFM modes, along with very low MOSFET ON resistances and an external bias input, ensures exceptional efficiency across the entire load range.
+Device Information
+PART NUMBER
+PACKAGE(1)
+BODY SIZE (NOM)
+LM61460-Q1
+VQFN-HR (14)
+4.00 mm ª 3.50 mm
+(1)	For all available packages, see the orderable addendum at the end of the data sheet.
+
+100%
+
+95%
+
+90%
+
+85%
+
+80%
+
+75%
+
+70%
+
+65%
+
+60%
+0.0001	0.001	0.01	0.1 0.2 0.5 1  2 3  5 710
+
+Conducted EMI: VOUT = 5 V, IOUT = 5 A
+
+Load Current (A)
+Efficiency: VOUT = 5 V, FSW = 400 kHz

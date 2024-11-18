@@ -1,0 +1,141 @@
+Easy Drive, Differential SAR ADCs
+
+
+
+FEATURES
+Throughput: 2 MSPS/1 MSPS/500 kSPS options INL: ±1.0 LSB (±3.8 ppm) maximum Guaranteed 18-bit no missing codes
+Low power
+4.9 mW/MSPS, 2.4 mW at 500 kSPS, VDD only
+  8 mW/MSPS, 80 µW at 10 kSPS, 16 mW at 2 MSPS total SNR: 100.5 dB at fIN = 1 kHz, 99 dB at fIN = 100 kHz Oversampled SNR:
+103.5 dB at 1.0 MSPS, OSR =2
+130.5 dB at 1.9 kSPS, OSR = 1024
+THD: ?123 dB at fIN = 1 kHz; ?100 dB at fIN = 100 kHz SINAD: 89 dB at fIN = 1 MHz
+Easy Drive
+Greatly reduced input kickback
+Input current reduced to 0.5 ?A/MSPS
+Long acquisition phase, ?79% of cycle time at 1 MSPS Input span compression for single-supply operation Input overvoltage clamp protection sinks up to 50 mA
+Differential input range: ±VREF
+VREF input range from 2.4 V to 5.1 V
+Single 1.8 V supply operation with 1.71 V to 5.5 V logic interface First conversion accurate, no latency/pipeline delay
+Fast conversion time allows low SPI clock rates
+SPI-/QSPI-/MICROWIRE-/DSP-compatible serial interface Ability to daisy-chain multiple ADCs
+Guaranteed operation: -40°C to +125°C
+10-lead packages: 3 mm ª 3 mm LFCSP, 3 mm ª 4.90 mm MSOP Pin compatible with AD4000/AD4004/AD4008 family APPLICATIONS
+Automatic test equipment
+Machine automation Medical equipment
+Battery-powered equipment Precision data acquisition systems
+FUNCTIONAL BLOCK DIAGRAM
+2.4V TO 5.1V
+
+GENERAL DESCRIPTION
+The AD4003/AD4007/AD4011 are high accuracy, high speed, low power, 18-bit, Easy Drive, precision successive approximation register (SAR) analog-to-digital converters (ADCs). The high throughput allows both accurate capture of high frequency signals and decimation to achieve higher SNR, while also reducing antialiasing filter challenges.
+Easy Drive features reduce signal chain complexity and power consumption, and enable higher channel density. The reduced input current, particularly in high-Z mode, coupled with a long signal acquisition phase, eliminates the need for a dedicated high power, high speed ADC driver, which broadens the range of low power precision amplifiers that can drive these ADCs directly (see Figure 2). The input span compression feature enables the ADC driver amplifier and the ADC to operate off common supply rails without the need for a negative supply while preserving the full ADC code range. The input overvoltage clamp protects the ADC inputs against overvoltages, minimizes disturbance on the reference pin, and eliminates the need for external protection diodes.
+The low serial peripheral interface (SPI) clock rate (75 MHz for the AD4003 in turbo mode) reduces the digital input/output power consumption, broadens processor options, and simplifies the task of sending data across digital isolation.
+The SPI-compatible versatile serial interface features seven different programmable modes with an optional busy indicator. Using  the SDI input, several ADCs can be daisy-chained on a single
+3-wire bus. The AD4003/AD4007/AD4011 are compatible with
+1.8 V, 2.5 V, 3 V, and 5 V logic, using the separate supply, VIO.
+
+
+15
+
+12
+
+9
+
+6
+
+
+
+
+
+
+VREF
+VREF/2
+
+
+
+
+AD4003/ AD4007/ AD4011
+HIGH-Z MODE
+
+10µF
+
+1.8V
+
+REF	VDD
+
+
+
+
+
+TURBO
+
+3
+
+0
+
+–3
+VIO 1.8V TO 5V	6
+SDI
+
+0
+
+  VREF VREF/2
+0
+
+IN+
+
+
+IN–
+
+
+
+
+CLAMP
+
+
+
+
+
+SPAN
+
+18-BIT SAR ADC
+
+MODE
+SERIAL INTERFACE
+
+STATUS BITS
+
+SCK SDO
+CNV
+3- 
+WIRE OR
+4- WIRE
+SPI INTERFACE (DAISY CHAIN, CS)
+
+–9
+
+–12
+
+–15
+
+COMPRESSION
+
+
+
+GND
+
+Figure 1.
+
+–5	–4	–3	–2	–1	0	1	2	3	4	5
+INPUT DIFFERENTIAL VOLTAGE (V)
+Figure 2. Input Current vs. Input Differential Voltage
+
+
+
+Rev. C	Document Feedback
+Information furnished by Analog Devices is believed to be accurate and reliable. However, no responsibility is assumed by Analog Devicesforits use, norfor any infringements ofpatents orother rights ofthirdpartiesthatmay resultfromitsuse. Specificationssubject tochangewithout notice.No license is granted by implication or otherwise under any patent or patent rights of Analog Devices. Trademarksandregisteredtrademarksarethepropertyoftheirrespectiveowners.
+
+
+
+One Technology Way, P.O. Box 9106, Norwood, MA 02062-9106, U.S.A. Tel: 781.329.4700 ©2016–2019 Analog Devices, Inc. All rights reserved. Technical Support	www.analog.com

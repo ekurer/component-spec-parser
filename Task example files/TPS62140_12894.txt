@@ -1,0 +1,90 @@
+Product Folder
+
+Order Now
+
+Technical Documents
+
+Tools & Software
+
+Support & Community
+
+
+TPS62140, TPS62140A, TPS62141, TPS62142, TPS62143
+SLVSAJ0E – NOVEMBER 2011 – REVISED SEPTEMBER 2016
+
+TPS6214x 3-V to 17-V 2-A Step-Down Converter in 3 ª 3 QFN Package
+
+1 Features
+• DCS-ControlTM Topology
+• Input Voltage Range: 3 V to 17 V
+• Up to 2-A Output Current
+• Adjustable Output Voltage from 0.9 V to 6 V
+• Pin-Selectable Output Voltage (Nominal, +5%)
+• Programmable Soft Start and Tracking
+• Seamless Power-Save Mode Transition
+• Quiescent Current of 17 µA (Typical)
+• Selectable Operating Frequency
+• Power-Good Output
+• 100% Duty-Cycle Mode
+• Short-Circuit Protection
+• Over Temperature Protection
+• Pin to Pin Compatible with TPS62130 and TPS62150
+• Available in a 3-mm ª 3-mm, VQFN-16 Package
+• Temperature range -40°C to +125°C
+
+2 Applications
+• Standard 12-V Rail Supplies
+• POL Supply From Single or Multiple Li-Ion Battery
+• Solid-State Disk Drives
+• Embedded Systems
+• LDO Replacement
+• Mobile PCs, Tablet, Modems, Cameras
+• Server, Microserver
+• Data Terminal, Point of Sales (ePOS)
+3 
+Description
+The TPS6214x family is an easy-to-use synchronous step-down DC-DC converter optimized for applications with high power density. A high switching frequency of typically 2.5 MHz allows the use of small inductors and provides fast transient response by use of the DCS-Control™ topology.
+With their wide operating input voltage range of 3 V to 17 V, the devices are ideally suited for systems powered from either a Li-Ion or other batteries, as well as from 12-V intermediate power rails. It supports up to 2 A of continuous output current at output voltages between 0.9 V and 6 V (with 100% duty-cycle mode). The output voltage start-up ramp is controlled by the soft-start pin, which allows operation as either a standalone power supply or in tracking configurations. Power sequencing is also possible by configuring the Enable (EN) and open-drain Power Good (PG) pins.
+In Power Save Mode, the devices draw quiescent current of about 17 ?A from VIN. Power Save Mode, entered automatically and seamlessly if the load is small, maintains high efficiency over the entire load range. In Shutdown Mode, the device is turned off and current consumption is less than 2 ?A.
+The device, available in adjustable and fixed output voltage versions, is packaged in a 16-pin VQFN package measuring 3 mm ª 3 mm (RGT).
+
+Device Information(1)
+
+PART NUMBER
+PACKAGE
+BODY SIZE (NOM)
+TPS6214x
+VQFN (16)
+3.00 mm x 3.00 mm
+(1) For all available packages, see the orderable addendum at the end of the datasheet.
+
+
+Typical Application Schematic	Efficiency vs Output Current
+100
+
+90
+
+80
+
+70
+
+60
+Copyright © 2016, Texas Instruments Incorporated
+
+50
+
+40
+0.0	0.4	0.8	1.2	1.6	2.0
+
+Output Current (A)
+
+
+G001
+
+
+
+
+
+
+
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, intellectual property matters and other important disclaimers. PRODUCTION DATA.

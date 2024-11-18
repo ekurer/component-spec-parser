@@ -1,0 +1,68 @@
+Dual 12-Bit nanoDAC with
+±10 ppm/°C On-Chip Reference
+
+
+
+FEATURES
+Low power, smallest pin-compatible, dual nanoDAC: 12 bits User-selectable external or internal reference
+External reference default
+  On-chip 2.5 V, ±10 ppm/°C reference 10-lead MSOP
+4.5 V to 5.5 V power supply Guaranteed monotonic by design Power-on reset to zero scale
+Per channel power-down Serial interface up to 50 MHz
+Hardware LDAC and CLR functions
+ENHANCED PRODUCT FEATURES
+Supports defense and aerospace applications (AQEC) Extended temperature range: -55°C to +105°C Controlled manufacturing baseline
+One assembly/test site One fabrication site
+Enhanced product change notification Qualification data available on request
+APPLICATIONS
+Process control
+Data acquisition systems
+GENERAL DESCRIPTION
+The AD5623R-EP, a member of the nanoDAC® family, is a low power, dual 12-bit buffered voltage output digital-to-analog converter (DAC) that operates from a single 4.5 V to 5.5 V supply and is guaranteed monotonic by design.
+
+The AD5623R-EP has an on-chip 2.5 V reference giving a maximum full-scale output of 5 V. The on-chip reference is off at power-up, allowing the use of an external reference.
+The AD5623R-EP incorporates a power-on reset circuit that ensures that the output of the DACs powers up to 0 V and remains there until a valid write takes place. The AD5623R-EP contains a power-down feature that reduces the current consumption of the device to 0.48 ?A at 5 V and provides software-selectable output loads while in power-down mode.
+The low power consumption of this device in normal operation makes it ideally suited to portable, battery-operated equipment.
+The AD5623R-EP uses a versatile, 3-wire serial interface that operates at clock rates of up to 50 MHz, and is compatible with standard SPI, QSPI™, MICROWIRE™, and DSP interface standards. The on-chip precision output amplifier enables rail- to-rail output swing to be achieved. Additional application and technical information can be found in the AD5623R data sheet.
+PRODUCT HIGHLIGHTS
+1. Dual 12-Bit DAC.
+2. On-Chip 2.5 V, ±10 ppm/°C Reference.
+3. Available in 10-Lead MSOP.
+4. Low Power. Typically consumes 1.25 mW at 5 V. 4.5 ?s maximum settling time.
+Table 1. Related Device
+
+Part No.
+Description
+AD5623R
+2.7 V to 5.5 V, dual 12-bit nanoDAC, with external reference
+
+FUNCTIONAL BLOCK DIAGRAM
+VDD	VREFIN/VREFOUT
+
+
+
+VOUTA
+
+
+VOUTB
+
+
+
+
+
+
+LDAC
+
+CLR
+
+GND
+Figure 1.
+
+
+
+Rev. A	Document Feedback
+Information furnished by Analog Devices is believed to be accurate and reliable. However, no responsibility is assumed by Analog Devices for its use, nor for any infringements ofpatents orother rights ofthirdparties thatmay result fromits use. Specificationssubject tochangewithout notice. No license is granted by implication or otherwise under any patent or patent rights of Analog Devices. Trademarks andregisteredtrademarks arethepropertyoftheirrespectiveowners.
+
+
+
+One Technology Way, P.O. Box 9106, Norwood, MA 02062-9106, U.S.A. Tel: 781.329.4700 ©2014–2015 Analog Devices, Inc. All rights reserved. Technical Support	www.analog.com

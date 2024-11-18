@@ -1,0 +1,115 @@
+Product Folder
+
+Sample & Buy
+
+Technical Documents
+
+Tools & Software
+
+Support & Community
+
+Reference Design
+
+
+TPS54140A
+SLVSB55C – MAY 2012 – REVISED OCTOBER 2015
+
+TPS54140A 1.5-A, 42-V Step-Down DC/DC Converter with Eco-mode™
+1 Features	3	Description
+
+• 3.5V to 42V Input Voltage Range
+• 200-m? High-Side MOSFET
+• -40°C to +125°C Temperature range
+
+The TPS54140A device is a 42-V, 1.5-A, step-down regulator with an integrated high-side MOSFET. Current-mode control provides simple external
+
+• High Efficiency at Light Loads with a Pulse	compensation and flexible component selection. A Skipping Eco-mode™	low ripple-pulse skip mode reduces the no-load,
+
+• Tighter Enable Threshold than TPS54140 for More Accurate UVLO Voltage
+• Adjustable UVLO Voltage and Hysteresis
+• 116-?A Operating Quiescent Current
+• 1.3-?A Shutdown Current
+
+regulated output supply current to 116 ?A. Using the enable pin, shutdown supply current is reduced to 1.3 ?A.
+Undervoltage lockout is internally set at 2.5 V, but can be increased using the enable pin. The output voltage startup ramp is controlled by the slow start
+
+• 100-kHz to 2.5-MHz Switching Frequency	pin	that	can	also	be	configured	for
+
+• Synchronizes to External Clock
+• Adjustable Slow Start/Sequencing
+• UV and OV Power Good Output
+• 0.8-V Internal Voltage Reference
+
+sequencing/tracking. An open drain power good signal indicates the output is within 94% to 107% of its nominal voltage.
+A wide switching frequency range allows efficiency and external component size to be optimized.
+
+• MSOP10 and 3-mm ª 3-mm VSON-10 Package	Frequency fold back and thermal shutdown protects With PowerPAD™	the part during an overload condition.
+• Supported by WEBENCH® and SwitcherPro™
+
+Software Tool
+
+2 Applications
+• 12-V and 24-V Industrial and Commercial Low Power Systems
+• Aftermarket Auto Accessories: Video, GPS, Entertainment
+
+Device Information(1)
+
+PART NUMBER
+PACKAGE
+BODY SIZE (NOM)
+
+TPS54140A
+VSON (10)
+3.00 mm ª 3.00 mm
+
+MSOP (10)
+3.00 mm ª 3.00 mm
+(1) For all available packages, see the orderable addendum at the end of the data sheet.
+
+
+
+Simplified Schematic
+
+
+
+
+
+
+
+
+
+VOUT
+
+
+Efficiency vs Load Current
+90
+
+85
+
+80
+
+75
+
+70
+
+
+65
+
+60
+
+55
+
+50
+0	0.25     0.50     0.75	1	1.25     1.50     1.75	2
+Load Current - A
+
+
+
+
+
+
+
+
+
+
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, intellectual property matters and other important disclaimers. PRODUCTION DATA.

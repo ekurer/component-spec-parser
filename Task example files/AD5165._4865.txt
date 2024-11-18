@@ -1,0 +1,141 @@
+256-Position,  Ultralow Power
+1.8 V Logic-Level Digital Potentiometer
+
+
+
+FEATURES
+Ultralow standby power IDD = 50 nA typical
+
+FUNCTIONAL BLOCK DIAGRAM
+V
+
+256-position
+End-to-end resistance 100 k? Logic high voltage 1.8 V Power supply 2.7 V to 5.5 V
+Low temperature coefficient 35 ppm/°C
+Compact thin 8-lead TSOT-8 (2.9 mm ª 2.8 mm) package Simple 3-wire digital interface
+Wide operating temperature -40°C to +125°C
+Pin-to-pin compatible to AD5160 with CS inverted
+APPLICATIONS
+Battery-operated electronics adjustment Remote utilities meter adjustment
+
+
+
+
+ CS
+
+ SDI CLK
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+GND
+
+DD
+
+
+A
+
+
+
+W
+
+
+
+B
+
+
+
+
+
+
+Figure 1.
+
+Mechanical potentiometer replacement Transducer circuit adjustment
+
+PIN CONFIGURATION
+
+Automotive electronics adjustment Gain control and offset adjustment System calibration
+VCXO adjustment
+GENERAL OVERVIEW
+The AD5165 provides a compact 2.9 mm ª 2.8 mm packaged
+ 
+W VDD GND
+CLK
+
+
+
+
+
+
+Figure 2.
+
+A B CS SDI
+
+solution for 256-position adjustment applications. These devices perform the same electronic adjustment function as mechanical potentiometers or variable resistors, with enhanced resolution, solid-state reliability, and superior low temperature coefficient performance. The AD5165’s supply voltage requirement is 2.7 V to 5.5 V, but its logic voltage requirement is 1.8 V to VDD. The AD5165 consumes very low quiescent power during standby mode and is ideal for battery-operated applications.
+Wiper settings are controlled through a simple 3-wire interface. The interface is similar to the SPI® digital interface except for the inverted chip-select function that minimizes logic power con- sumption in the idling state. The resistance between the wiper and either endpoint of the fixed resistor varies linearly with respect to the digital code transferred into the wiper register.
+Operating from a 2.7 V to 5.5 V power supply and consuming
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Note:
+
+TYPICAL APPLICATION
+
+
+
+
+WIDE TERMINAL VOLTAGE RANGE:
+
+0V < VA,VB,VW < 5V
+
+
+
+
+Figure 3.
+
+less than 50 nA typical standby power allows use in battery- operated portable or remote utility device applications.
+
+The terms digital potentiometer, RDAC, and VR are used interchangeably.
+
+
+
+
+
+Rev. 0
+Information furnished by Analog Devices is believed to be accurate and reliable. However, no responsibility is assumed by Analog Devices for its use, nor for any infringements of patents or other rights of third parties that may result from its use. Specifications subject to change without notice. No license is granted by implication or otherwise under any patent or patent rights of Analog Devices. Trademarks and registered trademarks are the property of their respective owners.
+
+
+
+
+One Technology Way, P.O. Box 9106, Norwood, MA 02062-9106, U.S.A. Tel: 781.329.4700	www.analog.com Fax: 781.326.8703 © 2004 Analog Devices, Inc. All rights reserved.

@@ -1,0 +1,112 @@
+Product Folder
+
+Sample & Buy
+
+Technical Documents
+
+Tools & Software
+
+Support & Community
+
+
+SN65HVDA100-Q1
+SLIS128C – NOVEMBER 2011 – REVISED JULY 2015
+
+SN65HVDA100-Q1 LIN Physical Interface
+1 Features	3	Description
+
+• Qualified for Automotive Applications
+• Local Interconnect Network (LIN) Physical Layer Specification Revision 2.1 Compliant and
+
+The SN65HVDA100 device is the Local Interconnect Network (LIN) physical interface, which integrates the serial transceiver with wakeup and protection features. The LIN bus is a single-wire bidirectional
+
+Conforms to SAEJ2602 Recommended Practice	bus typically used for low-speed in-vehicle networks for LIN	using data rates from 2.4 kbps to 20 kbps. The LIN
+
+• Extended Operation With Supply From 5 V to 27 V DC (LIN Specification 7 V to 18 V)
+• LIN Transmit Speed up to 20-kbps LIN Specified Maximum, High-Speed Receive Capable
+• Temperature range from -40°C to +125°C
+
+protocol output data stream on TXD is converted by the SN65HVDA100 into the LIN bus signal through a current-limited wave-shaping driver as outlined by the LIN Physical Layer Specification. The receiver converts the data stream from the LIN bus and
+
+• Sleep Mode: Ultra-Low Current Consumption	outputs the data stream through RXD. The LIN bus Allows Wake-Up Events From: LIN Bus, Wake-Up	has two states: dominant state (voltage near ground)
+
+Input (External Switch) or Host MCU
+• Wake-Up Request on RXD Pin
+• Wake-Up Source Recognition on TXD Pin
+
+and recessive state (voltage near battery). In the recessive state, the LIN bus is pulled high by the internal pullup resistor (30 k?) and series diode, so no external pullup components are required for slave
+
+• Interfaces to MCU With 5-V or 3.3-V I/O Pins	applications. Master applications require an external
+
+• High Electromagnetic Compatibility (EMC)
+• Control of External Voltage Regulator (INH Pin)
+
+pullup resistor (1 k?) plus a series diode per the LIN specification.
+
+• Supports ISO9141 (K-Line) -Like Functions	Device Information(1)
+• ESD Protection to ±12 kV (Human Body Model) on LIN Pin
+• LIN Pin Handles Voltage From –27 V to 45 V	(1) For all available packages, see the orderable addendum at
+(Short to Battery or Ground)	the end of the data sheet.
+• Survives Transient Damage in Automotive
+
+Environment (ISO 7637)
+• Undervoltage Protection on VSUP
+• TXD Dominant State Time-Out Protection
+• Prevention of False Wakeups With Bus Stuck Dominant Fault
+• Thermal Shutdown
+• Unpowered Node or Ground Disconnection Failsafe at System Level, Node Does Not Disturb Bus (No Load on Bus)
+
+2 Applications
+• Automotive
+• Industrial Sensing
+• White Goods Distributed Control
+
+
+
+
+
+  D
+
+
+
+  
+
+
+
+ W   
+
+
+
+T D
+
+SN65HVDA100-Q1 Block Diagram
+
+
+
+
+
+   
+
+
+
+VSUP
+
+
+   
+
+
+
+G D
+
+
+
+
+
+
+
+
+
+
+
+
+An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications, intellectual property matters and other important disclaimers. PRODUCTION DATA.
